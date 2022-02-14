@@ -1,0 +1,36 @@
+html {color: #ffffff; background-color: #23272a; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+@font-face {
+    font-family: Logo;
+    src: url('../fonts/ethnocentric.rg-regular.ttf');
+}
+.logo {
+    font-family: Logo;
+}
+.navBar {
+    background-color: #5866ef;
+    width: 100%;
+    height: 5%;
+    size: absolute;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.navBarItem {
+    font-size: 1.5vw;
+    background-color: #5866ef;
+    color: #ffffff;
+    height: 80%;
+    width: 10%;
+    top: 10%;
+    right: 5%;
+    position: absolute;
+    text-align: center;
+}
+.navBarItem:hover {
+    transition: 0.25s;
+    background-color: #3d48a6;
+}
+.navBarImg:hover {
+    transition: 0.25;
+    background-color: #3d48a6;
+}
