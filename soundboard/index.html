@@ -32,7 +32,7 @@
         <!--<center><h1 style="margin-top: 5%; font-size: 50pt;" class="logo">WaterFront Studios</h1></center>
         <center><h3 style="font-size: 25pt;" class="logo">Game Studio</h3></center>
         <center><p>We make games</p></center>-->
-        <div class="soundcontainer">
+        <div class="soundcontainer" id="board">
             <script>
                 //Foghorn
                 function minecraft_oof() {
@@ -44,9 +44,21 @@
                     var beep = new Audio('./mp3s/Beep.mp3');
                     beep.play();
                 }
+                function fullscren() {
+                    var element = document.getElementById('board');
+
+                    element.requestFullscreen().then(function() {
+                        console.log("Success");
+                    }).catch(function(error) {
+                        console.error("Could not fullscreen");
+                    });
+                }
             </script>
             <img src="../logo_text.png" style="height: 5%; margin-left: 2%;">
-            <p id="soundtext" style="font-family: logo; margin-left: 11%; position: absolute; top: -2.5%; font-size: 1.25vw;">Soundboard</p>
+            <p id="soundtext" style="font-family: logo; margin-left: 17%; position: absolute; top: -0%; font-size: 1.25vw;">Soundboard</p>
+            <button onclick="fullscren()" style="font-family: logo; margin-left: 20%; position: absolute; top: 0%; font-size: 1.25vw; background-color: #5866ef; border-radius: 8px; color: #ffffff;">
+                <p>full</p>
+            </button>
             <button class="sound">
                 <p class="fitButton" style="font-size: 1vw;" onclick="minecraft_oof()">Minecraft Death</p>
             </button>
