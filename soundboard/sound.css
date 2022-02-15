@@ -35,3 +35,28 @@ html {color: #ffffff; background-color: #23272a; font-family: Verdana, Geneva, T
     transition: 0.25;
     background-color: #3d48a6;
 }
+.soundcontainer {
+    background-color: black;
+    width: 90%;
+    height: 80%;
+    size: absolute;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.sound {
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    left: 2.5%;
+    background-color: #5866ef;
+    size: absolute;
+    position: absolute;
+    font-family: Logo;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.sound:hover {
+    transition: 0.25;
+    background-color: #3d48a6;
+}

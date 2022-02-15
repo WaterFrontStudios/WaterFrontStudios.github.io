@@ -25,6 +25,7 @@ html {color: #ffffff; background-color: #23272a; font-family: Verdana, Geneva, T
     right: 5%;
     position: absolute;
     text-align: center;
+    font-family: Logo;
 }
 .navBarItem:hover {
     transition: 0.25s;
