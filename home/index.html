@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta content="WaterFront" property="og:title" />
+        <meta content="WaterFrontStudios" property="og:title" />
         <meta content="Game dev studio" property="og:description" />
         <meta content="https://waterfrontstudios.github.io" property="og:url" />
         <meta content="../favicon.png" property="og:image" />
-        <title>WaterFront Studios</title>
-        <link rel="icon" type="image/x-icon" href="../favicon.png">
-        <link rel="stylesheet" href="./home.css">
-        <div id="h1234sd">
 
-        </div>
+        <script src="../script/Header.js" defer></script>
+
+        <title>WaterFrontStudios Home</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="../img/Logo_1024x1024.png">
     </head>
-    <header class="navBar">
-        <script>
-            function clickImg() {
-                var meta = document.createElement('meta');
-                meta.httpEquiv = 'refresh';
-                meta.content = '0; url="./"';
-                document.getElementById('h1234sd').appendChild(meta);
-            }
-            textFit(document.getElementsByClassName('navBarItem'))
-        </script>
-        <img src="../logo_text.png" style="height: 100%; margin-left: 5%;" class="navBarImg" onclick="clickImg()">
-        <center><a href="../contact" class="navBarItem"">Contact</a></center>
-        <center><a href="../games" class='navBarItem' style="right: 15%;">Games</a></center>
+    <header id="header">
+        <div class="header" id="heade">
+            <img src="../img/WaterFront_Simple_1024x256.png" alt="WaterFrontStudios Logo" id="logo">
+        </div>
     </header>
     <body>
-        <center><h1 style="margin-top: 5%; font-size: 50pt;" class="logo">WaterFront Studios</h1></center>
-        <center><h3 style="font-size: 25pt;" class="logo">Game Studio</h3></center>
-        <center><p>We make games</p></center>
+        <div class="main">
+            <h1>WaterFrontStudios</h1>
+            <p>
+                WaterFrontStudios is a game development studio.
+                We are working on improving this website and making more games.
+            </p>
+        </div>
+
     </body>
-    <footer style="bottom: 0%; position: absolute; width: 90%; left: 5%;">
-        <center><h5>©2022 WaterFront Studios; Ran by <a style="color: #5866ef;">@yodahe#2639</a> on Discord</h5></center>
+    <footer>
+        <div class="footer" id="footer">
+            <p>&copy; 2020 WaterFrontStudios</p>
+            <button onclick="discord()">
+                <img src="../img/Discord.bmp" alt="Discord Logo" id="dis">
+            </button>
+        </div>
     </footer>
 </html>
