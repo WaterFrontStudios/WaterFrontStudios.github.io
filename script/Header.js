@@ -1,5 +1,5 @@
 window.onscroll = function() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
         document.getElementById("heade").style.height = "5vh";
         document.getElementById("heade").style.fontSize = "1em";
         document.getElementById("header").style.height = "5vh";
