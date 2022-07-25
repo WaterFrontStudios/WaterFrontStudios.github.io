@@ -69,6 +69,8 @@ html {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: radial-gradient(circle, #2f3136 0%, #37393e 100%);
+    overflow-x: hidden;
+    scrollbar-width: thin;
 }
 
 body {
