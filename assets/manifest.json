@@ -1,0 +1,42 @@
+{
+    "name": "WaterFrontStudios",
+    "short_name": "WFS",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#37393e",
+    "theme_color": "#23272a",
+    "orientation": "portrait-primary",
+    "description":"The official WaterFrontStudios website.",
+    "icons": [
+        {
+            "src": "app_icons/48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "app_icons/72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "app_icons/96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "app_icons/144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "app_icons/168x168.png",
+            "type": "image/png",
+            "sizes": "168x168"
+        },
+        {
+            "src": "app_icons/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
