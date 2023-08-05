@@ -1,18 +1,18 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: repeating-linear-gradient(to bottom right, #1b202f 0% 10%, #1d2231 10% 20%);
+    background-image: repeating-linear-gradient(to bottom right, #111111 0% 10%, #222222 10% 20%);
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
     overflow-x: hidden;
-    scrollbar-color: #3dff64 #3da460;
+    scrollbar-color: #0d5de1 #111111;
     scrollbar-width: thin;
 }
 header {
     width: 100vw;
     height: 10vh;
-    background: #1b202f;
+    background: #111111;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,8 +41,8 @@ header div .active {
     border-bottom-width: 3.1px;
     width: fit-content;
     font-weight: bold;
-    color: #3da568;
-    text-shadow: 0 0 20px #3da760;
+    color: #0d5de1;
+    text-shadow: 0 0 20px #0d5de1;
 }
 header div a {
     transition: 0.25s color;
@@ -71,14 +71,18 @@ header div a:hover {
     margin-top: 10vh;
 }
 #g {
-    color: #3da560;
-    text-shadow: 0 0 20px #3da760;
+    color: #0d5de1;
+    text-shadow: 0 0 20px #0d5de1;
+}
+.go {
+    color: #E86600;
+    text-shadow: 0 0 20px #E86600;
 }
 #con h1 {
     font-size: 4rem;
 }
 #content {
-    background-color: #1b202e;
+    background-color: #222222;
     margin-left: 12.5%;
     margin-right: 12.5%;
     margin-top: 15%;
@@ -89,16 +93,17 @@ header div a:hover {
     border-radius: 8px;
 }
 #scr {
-    display: grid;
-    grid-template-areas:
-            "d g";
+    display: flex;
+    flex-direction: row;
     grid-template-columns: 47.5% 47.5%;
     grid-gap: 5%;
+    margin-top: 1rem;
 }
 #card {
-    background-color: #7777FF;
-    padding: 5%;
+    background-color: #0d5de1;
+    padding: 1.5rem;
     border-radius: 8px;
+    width: 47.5%;
 }
 #card img {
     width: 10%;
@@ -165,8 +170,8 @@ a:hover {
 hr {
     width: 95vw;
     height: 1vh;
-    background-color: #3da560;
-    box-shadow: 0 0 20px #3da760;
+    background-color: #0d5de1;
+    box-shadow: 0 0 20px #0d5de1;
     border-radius: 8px;
     margin-top: 20vh;
     border: 0;
@@ -186,11 +191,14 @@ hr {
     width: 7px;
 }
 ::-webkit-scrollbar-track {
-    background: #3da460;
+    background: #111111;
 }
 ::-webkit-scrollbar-thumb {
-    background: #3dff64;
+    background: #0d5de1;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #007D00;
+    background-color: #0d5dee;
+}
+#banner {
+    width: 50%;
 }
